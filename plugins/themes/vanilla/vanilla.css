@@ -1,0 +1,420 @@
+/**
+ * plugins/themes/vanilla/vanilla.css
+ *
+ * Copyright (c) 2013-2016 Simon Fraser University Library
+ * Copyright (c) 2003-2016 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Vanilla theme.
+ *
+ */
+
+@font-face {
+    font-family: Trajan Pro;
+    src: url(TrajanPro-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: Optima;
+    src: url(OPTIMA.TTF);
+}
+
+/*
+ *  Title in the Header: CSS
+*/
+.lenghrect
+{
+    width: calc(100% / 4);
+    min-height:20px;
+    text-align: center;
+    display:inline-block;
+}
+
+#header {
+    margin: auto;
+    text-align: center;
+    background-color: rgba(4, 138, 120, 0);
+    width: calc(100% - 250px);
+    /*border-bottom: 1px solid black;*/
+}
+
+#headerTitle {
+    text-align: center !important;
+    width: 100%;
+    margin: auto;
+}
+
+#headerTitle h1 {
+    padding: 0;
+    line-height: normal;
+    font-family: "Trajan Pro";
+    color: #048A78;
+    -webkit-font-size: 2.4vw;
+	-moz-font-size: 2.4vw;
+	font-size: 2.4vw;
+    margin: 40px 0px;
+    text-align: center;
+}
+
+.upper-case{
+    font-size: 2.99vw;
+}
+
+.div1 {
+    background-color: #048A78;
+}
+.blank{
+    width: calc(100% / 8);
+    background-color: rgba(4, 138, 120, 0);
+}
+.div2 {
+    background-color: #08CBB2; 
+}
+.div3 {
+    background-color: #F86112; 
+}
+
+/* END of the CSS for Header Title */
+
+#body {
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#container {
+    margin-top: 30px;
+    min-width: 1050px !important; /* min-width: 730px !important; */
+    text-align: center;
+}
+
+body {
+    background-color: rgba(4, 138, 120, 0.1);
+    color: #000000;
+    font-family: "Verdana","Arial","Helvetica","sans-serif";
+    font-size: 11pt;
+    text-align: justify !important;
+}
+
+
+input.textField, select.selectMenu, textarea.textArea, input.uploadField {
+    background-color: #eeeeee;
+    width: 95%;
+}
+
+input.defaultButton {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#main {
+    background-color: #ffffff;
+    border: 1px solid rgba(4, 138, 120, 0.2);
+    border-radius: 25px;
+    margin: 0;
+    display: inline-block;
+    float: none; 
+    overflow: visible;
+    width: 100% !important;
+    padding: 0;
+}
+
+#main h2 {
+    padding-left: 10px;
+    margin: 0em 1em 0.5em 0em;
+    padding-top: 0.5em;
+    font-family: "Trajan Pro";
+    font-weight: normal;
+    font-size: 29px; /*This needs to be in pixels, because the size of the font is too big to be in points*/
+    border-bottom: thin groove rgba(4, 138, 120, 0.1);
+    width: calc(100% - 280px);
+}
+
+#main.main-fix
+{
+      margin-top: 45px;
+}
+
+#rightSidebar {
+    font-family: "Optima";
+    font-size: 11pt;
+    width: 250px;
+    padding: 0em 0em 0em 0em;
+    margin-right: 0;
+    margin-left: 0;
+    float: right;
+    border-left: 20px solid rgb(230,243,241);
+}
+
+#sidebar{
+    display: inline;  
+    float: none; 
+    width: 0px; 
+    padding: 0; 
+    margin: 0;
+}
+
+#sidebar div.block {
+    font-size: 1em;
+    padding-bottom: 1.5em;
+    margin:2%;
+}
+
+
+td.tocGalleys {
+    padding-right: 10px;
+}
+
+#breadcrumb {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(4, 138, 120, 0.1);	
+    font-family: "Optima";
+    font-size: 11pt;
+    display: inline-block;
+    width: calc(100% - 280px);
+}
+
+#navbar {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 0;
+    font-weight: bold;
+    width: calc(100% - 198px);
+    height: 45px;
+    padding-top: 15px;
+    text-align: center;
+    border: none;
+}
+
+#navbar.fix {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    background-color: rgb(230,243,241);
+}
+
+#navbar a {
+    color: #048A78;
+    font-family: "Optima";
+    font-size: 1.15vw;
+    letter-spacing: 0em;
+}
+
+#navbar a:hover {
+    color: #08CBB2;
+    background-color: rgba(4, 138, 120, 0);
+}
+
+
+a:link {
+    color: #048A78;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000000;
+}
+
+a:visited {
+    color: #808080;
+}
+
+a:hover {
+    color: #08CBB2;
+    background: #ffffff;
+}
+
+#content {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Optima" !important;
+    font-size: 11pt !important;
+    text-align: justify !important;
+    border-top: 0px solid white;
+    width: calc(100% - 280px);
+    border-right: 20px solid rgb(230,243,241); 
+    line-height: 25px; /* 06/02/2017 */
+    word-wrap: break-word; /* 09/03/2017 */
+}
+
+#inlinePdf
+{
+    height: 1000px!important;
+}
+
+#main .h4-help{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: calc(100% - 280px);
+    margin: 0;
+    height: auto;
+    display: inline-block;
+}
+#content.instructions{
+    width: calc(100% - 20px);
+    border-right: 0px solid rgb(230,243,241);
+}
+
+.extrasContainer
+{
+    display:none;
+}
+.pkp_controllers_extrasOnDemand .toggleExtras
+{
+    float:none;
+}
+
+#content h3
+{
+    padding-top: 85px;
+}
+
+#tabs
+{
+    display: inline-block;
+}
+
+ul.menu li {
+    margin: 0;
+    padding: 0;
+    padding-right: 1vw;
+    display: inline;
+}
+/* Added at 18 Nov 2016 */
+div{
+    text-align: justify;
+}
+
+div.authorBio p{
+    word-wrap: break-word;
+}
+
+/* Added at 22 Nov 2016 */
+
+#content p{
+    margin: 0em 1em 0.25em 0em;
+}
+
+/* Added at 17 Feb 2017 */
+
+#group div{
+	margin-right: 10px;
+}
+
+/* Added at 20 Feb 2017 */
+
+form {
+	margin: 0px 10px 0px 0px !important;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1900px){
+    #navbar a {
+        font-size: 1.1vw;
+    }
+    #headerTitle h1 {
+        -moz-font-size: 2.35vw;
+		-webkit-font-size: 2.35vw;
+		font-size: 2.35vw;
+    }
+    ul.menu li {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1680px){
+    #navbar a {
+        font-size: 1.05vw;
+    }
+    #headerTitle h1 {
+        -moz-font-size: 2.28vw;
+		-webkit-font-size: 2.28vw;
+		font-size: 2.28vw;
+    }
+    ul.menu li {
+        padding-right: 16px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    #navbar a {
+        font-size: 1.05vw;
+    }
+    #headerTitle h1 {
+        -moz-font-size: 2.2vw;
+		-webkit-font-size: 2.2vw;
+		font-size: 2.2vw;
+    }
+    ul.menu li {
+        padding-right: 12px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    #navbar a {
+        font-size: 0.98vw;
+    }
+    #headerTitle h1 {
+        -moz-font-size: 2.07vw;
+		-webkit-font-size: 2.07vw;
+		font-size: 2.07vw;
+    }
+    ul.menu li {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+	#navbar a {
+        font-size: 0.9vw;
+    }
+	#navbar.fix {
+		width: calc(100%);
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+    #headerTitle h1 {
+        -moz-font-size: 1.97vw;
+		-webkit-font-size: 1.97vw;
+		font-size: 1.97vw;
+    }
+    ul.menu li {
+        padding-right: 8px;
+    }
+	#container {
+		min-width: 1050px !important;
+	}
+}
+
+@media screen and (max-width: 900px){
+    #navbar a {
+        font-size: 0.65em;
+    }
+    #headerTitle h1 {
+        -moz-font-size: 11pt;
+		-webkit-font-size: 11pt;
+		font-size: 11pt;
+    }
+    ul.menu li {
+        padding-right: 8px;
+    }
+	#navbar {
+		margin-right: 0px;
+		margin-left: 0px;
+		width: calc(100%);
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#body {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	#container {
+		min-width: 885px !important;
+	}
+}

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2013 Fran Mañez <fran.upc@gmail.com> - Universitat Politècnica de Catalunya UPC
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * IMPORTANT: this plugin depends on 'Counter Plugin'. Only work if 'Counter plugin' is activated.
+  *
+  * Localization strings for the ca_ES (Català) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="ca_ES" full_name="Català">
+	<message key="plugins.generic.statistics.description"><![CDATA[Gràfiques estadístiques <b><font color="red">IMPORTANT:</font>: per activar aquest plugin, s'ha d'activar el plugin "Estadístiques COUNTER (contador)"</b>]]></message>
+	<message key="plugins.generic.statistics">Estadístiques</message>
+	<message key="plugins.generic.statistics.errorCounterPlugin"><![CDATA[<b><font color="red">ERROR:</font>: per activar aquest plugin, s'ha d'activar el plugin "Estadístiques COUNTER (contador)"</b>]]></message>
+	<message key="plugins.generic.statistics.monthly">Mensualment</message>
+	<message key="plugins.generic.statistics.lastYears">Darrers anys</message>
+	<message key="plugins.generic.statistics.article">Articles</message>
+	<message key="plugins.generic.statistics.name">Nom</message>
+	<message key="plugins.generic.statistics.downloads">Descarregues</message>
+	<message key="plugins.generic.statistics.columns">Columnes</message>
+	<message key="plugins.generic.statistics.columnsStack">Columnes apilades</message>
+	<message key="plugins.generic.statistics.lines">Línies</message>
+	
+	<message key="plugins.generic.statistics.titleByArticle">Estadístiques d'article</message>
+	<message key="plugins.generic.statistics.queryNumbers">Número de consultes</message>
+	<message key="plugins.generic.statistics.querysToTheJournal">Consultes a la revista en</message>
+	<message key="plugins.generic.statistics.querysFrom">Consultes a la revista des de</message>
+	<message key="plugins.generic.statistics.querysTo">fins</message>
+	<message key="plugins.generic.statistics.viewHTML">HTML</message>
+	<message key="plugins.generic.statistics.viewPDF">PDF</message>
+	<message key="plugins.generic.statistics.viewOther">Altres</message>
+	<message key="plugins.generic.statistics.lastYears2">Darrers 6 anys</message>
+	<message key="plugins.generic.statistics.byMonthArticle">Últims 12 mesos</message>
+	<message key="plugins.generic.statistics.byMonth">Per mesos de l\'any</message>
+
+</locale>

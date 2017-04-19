@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2013 Fran Mañez <fran.upc@gmail.com> - Universitat Politècnica de Catalunya UPC
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * IMPORTANT: this plugin depends on 'Counter Plugin'. Only work if 'Counter plugin' is activated.
+  *
+  * Localization strings for the es_ES (Español) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="es_ES" full_name="Español (España)">
+	<message key="plugins.generic.statistics.description"><![CDATA[Gráficas estadísticas. <b><font color="red">IMPORTANTE:</font> para activar este plugin, se debe activar el plugin "Estadísticas COUNTER (contador)</b>"]]></message>
+	<message key="plugins.generic.statistics">Estadísticas</message>
+	<message key="plugins.generic.statistics.errorCounterPlugin"><![CDATA[<b><font color="red">ERROR:</font> para activar este plugin, se debe activar el plugin "Estadísticas COUNTER (contador)</b>"]]></message>
+	<message key="plugins.generic.statistics.monthly">Mensualmente</message>
+	<message key="plugins.generic.statistics.lastYears">Últimos años</message>
+	<message key="plugins.generic.statistics.article">Artículos</message>
+	<message key="plugins.generic.statistics.name">Nombre</message>
+	<message key="plugins.generic.statistics.downloads">Descargas</message>
+	<message key="plugins.generic.statistics.columns">Columnas</message>
+	<message key="plugins.generic.statistics.columnsStack">Columnas apiladas</message>
+	<message key="plugins.generic.statistics.lines">Lineas</message>
+	
+	<message key="plugins.generic.statistics.titleByArticle">Estadísticas de artículo</message>
+	<message key="plugins.generic.statistics.queryNumbers">Número de consultas</message>
+	<message key="plugins.generic.statistics.querysToTheJournal">Consultas a la revista en</message>
+	<message key="plugins.generic.statistics.querysFrom">Consultas a la revista desde </message>
+	<message key="plugins.generic.statistics.querysTo"> hasta </message>
+	<message key="plugins.generic.statistics.viewHTML">HTML</message>
+	<message key="plugins.generic.statistics.viewPDF">PDF</message>
+	<message key="plugins.generic.statistics.viewOther">Otros</message>
+	<message key="plugins.generic.statistics.lastYears2">Últimos 6 años</message>
+	<message key="plugins.generic.statistics.byMonthArticle">Últimos 12 meses</message>
+	<message key="plugins.generic.statistics.byMonth">Por meses del año</message>
+	
+</locale>

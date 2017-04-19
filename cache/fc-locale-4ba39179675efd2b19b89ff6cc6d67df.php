@@ -1,0 +1,17 @@
+<?php return array (
+  'plugins.generic.customBlockManager.displayName' => 'Administração de Blocos Personalizados',
+  'plugins.generic.customBlockManager.description' => 'Este plugin permite criar blocos laterais adicionais. Uma vez criados, poderão ser editados os seus conteúdos e reorganizados no interior das barras laterais de navegação.',
+  'plugin.generic.customBlockManager.introduction' => 'Poderá utilizar este plugin para adicionar ou eliminar plugins de blocos personalizados.  Poderá editar o conteúdo através de <a href="{$systemPluginsUrl}">Sistema de Plugins</a> página (em secção de Plugins de Bloco).  Para posicionar o plugin no local pretendido na barra lateral, navegar até <a href="{$setupStep56}">Passo 5.6</a>',
+  'plugins.generic.customBlockManager.settings' => 'Configurações',
+  'plugins.generic.customBlockManager.blockName' => 'Nome do Bloco',
+  'plugins.generic.customBlockManager.action' => 'Acção',
+  'plugins.generic.customBlockManager.delete' => 'Eliminar',
+  'plugins.generic.customBlockManager.addBlock' => 'Adicionar Bloco',
+  'plugins.generic.customBlock.content' => 'Conteúdo',
+  'plugins.generic.customBlock.saved' => 'O conteúdo do bloco foi guardado.',
+  'plugins.generic.customBlock.nameSuffix' => '(Plugin Personalização Bloco)',
+  'plugins.generic.customBlock.description' => 'Este é um bloco gerado por utilizador.',
+  'plugins.generic.customBlock.editContent' => 'Editar o conteúdo da barra lateral',
+  'plugins.generic.customBlock.contentRequired' => 'É necessário algum conteúdo.  Se pretende eliminar este bloco, poderá fazê-lo com o Plugin de Administração de Blocos Plugin ou desmarcando este bloco no Passo 5 das configurações da revista.',
+  'plugins.generic.customBlock.edit' => 'Editar',
+); ?>

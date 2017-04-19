@@ -1,0 +1,4 @@
+http://revista.ismt.pt
+[2017-04-16 13:40:17] [Aviso] Tarefa do iniciada.
+[2017-04-16 13:40:17] [Erro] A pasta /var/www/repositorio/files/usageStats/processing não está vazia. Isto pode indicar uma falha anterior do processo, ou processos concorrentes (a correr em paralelo). Este ficheiro será automaticamente processado se está a usar o processo scheduledTasksAutoStage.xml, caso contrário, terá que manualmente mover os ficheiros para a pasta de processamento dos ficheiros de log.
+[2017-04-16 13:40:20] [Erro] Ficheiro usage_events_20170415.log não pode ser removido de /var/www/repositorio/files/usageStats/processing/usage_events_20170415.log para /var/www/repositorio/files/usageStats/archive/usage_events_20170415.log

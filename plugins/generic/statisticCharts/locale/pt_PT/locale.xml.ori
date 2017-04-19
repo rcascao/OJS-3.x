@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2013 Fran Mañez <fran.upc@gmail.com> - Universitat Politècnica de Catalunya UPC
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * 
+  * IMPORTANT: this plugin depends on 'Counter Plugin'. Only work if 'Counter plugin' is activated.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.generic.statistics.description"><![CDATA[Statistics charts <b><font color="red">IMPORTANT:</font> this plugin depends on 'Counter Plugin'. Only work if 'Counter plugin' is activated</b>]]></message>
+	<message key="plugins.generic.statistics">Statistics</message>
+	<message key="plugins.generic.statistics.errorCounterPlugin"><![CDATA[<b><font color="red">ERROR:</font>: to activate it, the plugin "COUNTER Statistics" must be activated</b>]]></message>
+	<message key="plugins.generic.statistics.monthly">Monthly</message>
+	<message key="plugins.generic.statistics.lastYears">Last years</message>
+	<message key="plugins.generic.statistics.article">Articles</message>
+	<message key="plugins.generic.statistics.name">Name</message>
+	<message key="plugins.generic.statistics.downloads">Downloads</message>
+	<message key="plugins.generic.statistics.columns">Columns</message>
+	<message key="plugins.generic.statistics.columnsStack">Stack columns</message>
+	<message key="plugins.generic.statistics.lines">Lines</message>
+	
+	<message key="plugins.generic.statistics.titleByArticle">Statistics by article</message>
+	<message key="plugins.generic.statistics.queryNumbers">Number of queries</message>
+	<message key="plugins.generic.statistics.querysToTheJournal">Queries to the journal in</message>
+	<message key="plugins.generic.statistics.querysFrom">Queries to the journal from</message>
+	<message key="plugins.generic.statistics.querysTo">to</message>
+	<message key="plugins.generic.statistics.viewHTML">HTML</message>
+	<message key="plugins.generic.statistics.viewPDF">PDF</message>
+	<message key="plugins.generic.statistics.viewOther">Others</message>
+	<message key="plugins.generic.statistics.lastYears2">Last 6 years</message>
+	<message key="plugins.generic.statistics.byMonthArticle">Last 12 months</message>
+	<message key="plugins.generic.statistics.byMonth">For months of the year</message>
+	
+</locale>

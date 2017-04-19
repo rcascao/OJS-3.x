@@ -1,0 +1,25 @@
+--- plugins/themes/night/NightThemePlugin.inc.php	2012-09-20 16:19:16.000000000 -0700
++++ plugins/themes/night/NightThemePlugin.inc.php	2016-08-03 20:41:44.125369744 -0700
+@@ -1,9 +1,10 @@
+ <?php
+ 
+ /**
+- * @file NightThemePlugin.inc.php
++ * @file plugins/themes/night/NightThemePlugin.inc.php
+  *
+- * Copyright (c) 2003-2012 John Willinsky
++ * Copyright (c) 2013-2016 Simon Fraser University Library
++ * Copyright (c) 2003-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * @class NightThemePlugin
+@@ -12,9 +13,6 @@
+  * @brief "Night" theme plugin
+  */
+ 
+-// $Id$
+-
+-
+ import('classes.plugins.ThemePlugin');
+ 
+ class NightThemePlugin extends ThemePlugin {

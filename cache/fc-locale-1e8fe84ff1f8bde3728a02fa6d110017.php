@@ -1,0 +1,17 @@
+<?php return array (
+  'plugins.importexport.quickSubmit.addToExisting' => 'Adicionar na edição existente:',
+  'plugins.importexport.quickSubmit.chooseDestination' => 'Destino da submissão',
+  'plugins.importexport.quickSubmit.chooseDestinationDescription' => 'Escolha se deseja adicionar novas submissões a uma edição já existente ou deixar na fila de edição.',
+  'plugins.importexport.quickSubmit.displayName' => 'Plugin de Submissão Rápida',
+  'plugins.importexport.quickSubmit.description' => 'Plugin de submissão em 1 passo',
+  'plugins.importexport.quickSubmit.descriptionLong' => 'Este plugin permite adicionar rapidamente submissões completas na fila de edição ou directamente a uma edição existente.',
+  'plugins.importexport.quickSubmit.issueRequired' => 'Escolha uma edição na qual será adicionado o artigo.',
+  'plugins.importexport.quickSubmit.leaveUnpublished' => 'Deixar não publicado',
+  'plugins.importexport.quickSubmit.saveAndCreateAnother' => 'Guardar e criar outra',
+  'plugins.importexport.quickSubmit.submissionData' => 'Dados da submissão',
+  'plugins.importexport.quickSubmit.submissionDescription' => 'Escolha o ficheiro a ser usado como versão para publicação desta submissão.',
+  'plugins.importexport.quickSubmit.submissionRequired' => 'É necessário enviar um ficheiro.',
+  'plugins.importexport.quickSubmit.success' => 'Artigo incluído',
+  'plugins.importexport.quickSubmit.successDescription' => 'Artigo criado com sucesso.',
+  'plugins.importexport.quickSubmit.successReturn' => 'Voltar ao Plugin de Submissão Rápida.',
+); ?>

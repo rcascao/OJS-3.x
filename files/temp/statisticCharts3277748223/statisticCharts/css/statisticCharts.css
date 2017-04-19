@@ -1,0 +1,14 @@
+#toolbar {
+	padding: 3px 3px;
+	width: .1;
+	display: block;
+}
+
+.inputYear {
+	border: solid 1px #ababab;
+	font-size: 1.5em;
+	padding: 2px;
+	color: #4572a7;
+	width: 60px;
+	text-align: center;
+}

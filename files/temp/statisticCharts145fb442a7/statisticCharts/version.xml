@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * version.xml
+  *
+  * Copyright (c) 2013 Fran Mañez <fran.upc@gmail.com> - Universitat Politècnica de Catalunya UPC
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * IMPORTANT: this plugin depends on 'Counter Plugin'. Only work if 'Counter plugin' is activated.
+  *
+  * Plugin version information.
+  -->
+<version>
+	<application>statisticCharts</application>
+	<type>plugins.generic</type>
+	<release>1.0.0.0</release>
+	<date>2013-10-29</date>
+	<lazy-load>1</lazy-load>
+	<sitewide>1</sitewide>
+	<class>StatisticChartsPlugin</class>
+</version>

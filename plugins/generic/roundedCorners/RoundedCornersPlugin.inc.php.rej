@@ -1,0 +1,13 @@
+--- plugins/generic/roundedCorners/RoundedCornersPlugin.inc.php	2012-09-20 16:19:16.000000000 -0700
++++ plugins/generic/roundedCorners/RoundedCornersPlugin.inc.php	2016-08-03 20:41:44.013369739 -0700
+@@ -1,8 +1,9 @@
+ <?php
+ 
+ /**
+- * @file RoundedCornersPlugin.inc.php
++ * @file plugins/generic/roundedCorners/RoundedCornersPlugin.inc.php
+  *
++ * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2007-2009 Juan Pablo Alperin, Gunther Eysenbach
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *

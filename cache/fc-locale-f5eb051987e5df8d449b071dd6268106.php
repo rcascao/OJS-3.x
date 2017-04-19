@@ -1,0 +1,28 @@
+<?php return array (
+  'plugins.importexport.crossref.displayName' => 'Plugin Exportação CrossRef XML',
+  'plugins.importexport.crossref.description' => 'Exporta metadados dos artigos no formato CrossRef XML.',
+  'plugins.importexport.crossref.cliUsage' => 'Modo de Usar:
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] artigos [articleId1] [articleId2] ...
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] edição [issueId]',
+  'plugins.importexport.crossref.settings.form.username' => 'Utilizador',
+  'plugins.importexport.crossref.requirements' => 'Requisitos',
+  'plugins.importexport.crossref.requirements.satisfied' => 'Todos os requisitos do plugin foram satisfeitos.',
+  'plugins.importexport.crossref.error.pluginNotConfigured' => 'O plugin CrossRef não está configurado! Configure este plugin em <a href="{$settingsUrl}">na página de configuração geral da revista<a/>',
+  'plugins.importexport.crossref.settings.form.automaticRegistration' => 'Registar DOIs automaticamente',
+  'plugins.importexport.crossref.error.DOIsNotAvailable' => 'O plugin DOI Public Identifier não configurado! Active e configure este plugin a partir de <a href="{$doiUrl}" target="_blank">DOI Plugin</a> Página de configuração.',
+  'plugins.importexport.crossref.error.publisherNotConfigured' => 'Não foi configurado um editor da revista! Tem de adicionar um editor em <a href="{$publisherUrl}" target="_blank">Configuração da Revista, Passo 1.5</a>.',
+  'plugins.importexport.crossref.settings.depositorIntro' => 'Os seguintes requisitos não obrigatórios para um depósito com sucesso dos dados da CrossRef',
+  'plugins.importexport.crossref.settings.form.depositorName' => 'Nome do Depositante',
+  'plugins.importexport.crossref.settings.form.depositorEmail' => 'E-mail do Depositante',
+  'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Por favor, insira o nome do depositante.',
+  'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Por favor, insira o e-mail do depositante.',
+  'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS depositará os DOIs dos artigos automaticamente na CrossRef tal como estes são publicados. Note que este processo poderá levar algum tempo após o processo de publicação. Poderá verificar todos os DOIs não registados em <a href="{$unregisteredURL}">lista de artigos não registados</a>.',
+  'plugins.importexport.crossref.registrationIntro' => 'Este plugin pode ser configurado automaticamente para o Digital Object Identifiers (DOIs) junto da  CrossRef. É necessário estar na posse de nome de utilizador e senha (disponível em <a href="http://www.crossref.org" target="_blank">CrossRef</a>). Se ainda não tem nome de utilizador e senha poderá mesmo assim exportar para o formato XML da CrossRef, mas não poderá registar os DOIs na CrossRef a partir do OJS.',
+  'plugins.importexport.crossref.settings.description' => 'Pode <a href="{$settingsUrl}">configurar o plugin de exportação/registo do CrossRef export/aqui</a>.',
+  'plugins.importexport.crossref.settings.form.description' => 'Por favor, configure o plugin de exportação/registo do CrossRef:',
+  'plugins.importexport.crossref.settings.form.usernameRequired' => 'Por favor, insira o nome de utilizador fornecido pela CrossRef',
+  'plugins.importexport.crossref.export.unregistered' => 'Artigos não Registados',
+  'plugins.importexport.crossref.export.selectUnregistered' => 'Seleccionar artigos não registados',
+  'plugins.importexport.crossref.export.noUnregistered' => 'Todos os artigos publicados foram registados (ou nenhum destes tem um DOI atribuído)',
+  'plugins.importexport.crossref.senderTask.name' => 'Tarefa de registo automático CrossRef',
+); ?>
